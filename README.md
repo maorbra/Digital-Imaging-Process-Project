@@ -25,5 +25,13 @@ ________________________________________________________________________________
 
 **detect the ball touch the ground** -  The assumption is that the floor does not move because the video camera is fixed in place. Therefore, calculating the differences between frames was a good solution for separating the floor from the player and the ball, which move between frames. Additionally, we defined a line below which we want to detect the floor only. The big problem was to distinguish between the ball touch the floor or the ball just in the low part of the frame. the solution to that was to create a donut that circle the ball we already detect in each frame and to check if the leg of the player is close to the ball and he bounce it.
 
-**detect toching hand** - we use **CSRT** algotitem to follow an object between the frames,we define at the beggining of the game (the host mark the hands of the player) 
+**detect toching hand** - we use **CSRT** algotitem to follow an object between the frames,we define at the beggining of the game (the host mark the hands of the player).
+
+________________________________________________________________________________________________
+
+The main code is **final16_39.py** , for the user expirence you need the **Ariel.ttf** , **wow.ogg** , **firework.jpg** , **mixit-sad-game-over-trombone-471.wav** , and for the players data table that maintain the history players data you need **player_data.cvs**
+
+
+
+
 
